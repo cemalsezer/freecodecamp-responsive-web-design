@@ -1,0 +1,1 @@
+![Markdown Image](https://github.com/cemalsezer/freecodecamp-responsive-web-design/blob/main/tribute-page/img/tribute-page.png)
