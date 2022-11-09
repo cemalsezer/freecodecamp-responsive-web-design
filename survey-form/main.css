@@ -1,8 +1,36 @@
-#container{
-    background-color: antiquewhite;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100%;
     width: 100%;
+    z-index: -1;
+    background: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg") no-repeat center center fixed; 
+
 }
-#form-id{
- 
+
+#survey-form{
+    display: flex;
+    flex-direction: column;
+    background-color: #212142 ;
+   max-width: 1000px;
+   border-radius: 10px;
+   padding: 40px;
+   color: white;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
 }
