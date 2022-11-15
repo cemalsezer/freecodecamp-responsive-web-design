@@ -125,6 +125,18 @@
     background-color: #f1c40f;
     font-weight: 400;
   }
+  @media (max-width: 800px){
+    #pricing{
+   flex-direction: column;
+   align-items: center;
+ }
+ #pricing .product-card{
+   max-width: 300px;
+   width: 100%;
+   margin: 0 auto;
+   margin-bottom: 10px;
+ }
+}
 footer{
     margin-top: 30px;
     background-color: #ddd;
