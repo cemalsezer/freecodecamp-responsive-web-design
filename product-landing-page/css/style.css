@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#header{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #eee;
+    min-height: 75px;
+    padding: 0px 20px;
+}
+#hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+}
+#hero input[type='email'] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+    margin-top: 15px;
+  }
+  
+  #hero input[type='submit'] {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: #f1c40f;
+  }
+  
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+#nav-bar{
+    display: flex;
+    align-items: center;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+}
+#features{
+    margin-top: 30px;
+}
+#features .content{
+    display: flex;
+
+}
+#features .content-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+}
+#features .content-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+}
+#how-it-works{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+#how-it-works > iframe {
+    max-width: 560px;
+    width: 100%;
+  }
+  #pricing {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #pricing .product-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+  }
+  #pricing .card-header{
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  #pricing .card-body{
+    text-align: justify;
+    margin: 20px 0;
+  }
+  #pricing .price-header{
+    text-align: center;
+  }
+  #pricing .btn-submit{
+    border: 0;
+    margin: 15px 0;
+    background-color: #f1c40f;
+    font-weight: 400;
+  }
+footer{
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+  }
+
+footer > ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  footer > ul > li {
+    padding: 0 10px;
+    list-style: none;
+  }
+  footer ul li a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  footer > span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+  }
