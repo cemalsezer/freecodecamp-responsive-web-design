@@ -1,1 +1,1 @@
-# freeCodeCamp'in "Legacy Responsive Web Design" kurs projeleri
+# freeCodeCamp's "Legacy Responsive Web Design" course
